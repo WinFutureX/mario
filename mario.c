@@ -26,8 +26,11 @@ int main()
 			{
 				printf ("#");
 			}
-		printf ("\n\n");
+		printf ("\n");
 	}
+	#ifndef _WIN32
+	printf("\n");
+	#endif
 	return 0;
 	}
 }
