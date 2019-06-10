@@ -8,13 +8,12 @@
 int main()
 {
 	int height = 0;
-	int result;
 	char st[1024];
 	do
 	{
 		printf("Height: ");
 		fgets(st, sizeof(st), stdin);
-		result = sscanf(st, "%d", &height);
+		sscanf(st, "%d", &height);
 	}
 	while (height < 1 || height > 23);
 	for(int line = 0; line < height; line++)
