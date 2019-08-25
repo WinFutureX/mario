@@ -16,13 +16,13 @@ int main()
 		sscanf(st, "%d", &height);
 	}
 	while (height < 1 || height > 23);
-	for(int line = 0; line < height; line++)
+	for (int line = 0; line < height; line++)
 	{
-		for(int spaces = height - line; spaces > 1; spaces--)
+		for (int spaces = height - line; spaces > 1; spaces--)
 		{
 			printf(" ");
 		}
-		for(int hashes = 0; hashes < line + 2; hashes++)
+		for (int hashes = 0; hashes < line + 2; hashes++)
 		{
 			printf("#");
 		}
