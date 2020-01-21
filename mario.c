@@ -1,9 +1,11 @@
-// mario.c: print out a half-pyramid between 1-23, as seen at the end of every level in SMB
-//     ##
-//    ###
-//   ####
-//  #####
-// ######
+/*
+	mario.c: print out a half-pyramid between 1-23, as seen at the end of every level in SMB
+	    ##
+	   ###
+	  ####
+	 #####
+	######
+*/
 #include <stdio.h>
 int main()
 {
